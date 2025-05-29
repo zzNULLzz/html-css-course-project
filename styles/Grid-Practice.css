@@ -1,0 +1,52 @@
+                    
+                p {
+                    font-family: Roboto, Arial;
+                    color: #333;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+
+                }
+
+                .Videos {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    column-gap: 20px;
+                    row-gap: 40px;
+                
+                }
+
+                .Thumbnail {
+                    width: 100%;
+                    height: auto;
+                }
+
+
+                .VideoDesc {
+                    display: grid;
+                    grid-template-columns: 50px 1fr;
+                    column-gap: 5px;
+                    
+                }
+            
+                .ChannelLogo {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+
+                .Title {
+                    font-weight: 500;
+                    color: #000;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                }
+
+                .Author, .Stats {
+                    color: #555;
+                    font-size: 12px;
+                    margin-bottom: 4px;
+                }
+
+                .Stats {
+                    color: rgb(170, 170, 170);
+                }
