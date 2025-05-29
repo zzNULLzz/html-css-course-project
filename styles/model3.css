@@ -54,15 +54,19 @@ p {
 }
 
 .Search {
+    display: block;
     width: 400px;
     border-radius: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 10px;
+    padding-left: 14px;
     padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow:2px 5px 10px rgba(0, 0, 0, 0.3);
     border: none;
-    font-size: 16px;
+    font-size: 13px;
+    font-family: Arial;
 }
 
 .Search:focus {
@@ -107,3 +111,29 @@ p {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
     transform: translateY(2px);
 }
+
+.Name, .Email {
+    display: block;
+    margin-top: 10px;
+    border-radius: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+} 
+
+.Name:focus, .Email:focus {
+    outline: none;
+}
+
+.Google {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    
+    
