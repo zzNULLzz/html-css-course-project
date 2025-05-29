@@ -18,3 +18,23 @@ p {
     font-weight: bold;
     margin-bottom: 16px;
 }
+
+.Street1 {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.Street2 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.Street3 {
+    width: 200px;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 50%;
+}
