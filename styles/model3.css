@@ -1,0 +1,20 @@
+p {
+    font-family: Montserrat;
+    text-align: center;
+}
+.Delivery{
+    text-decoration: underline; 
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+.Delivery:hover {
+    opacity: 0.7;
+}
+
+.Montserrat {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
