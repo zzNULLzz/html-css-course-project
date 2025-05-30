@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindSpace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/Mindspace.css">
+</head>
+
+<body>
+  <header>
+    <div>MINDSPACE</div>
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+  </header>
+  <div class="dropdown" id="menu">
+    <a href="#what">What We Do</a>
+    <a href="#process">Our Process</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#location">Location</a>
+  </div>
+  <div class="spacer"></div>
+    <div class="herotitle">MINDSPACE</div>
+    <div class="hero">
+    Your mind is a <span class="yellow">universe</span>
+    <div class="tagline">Share it with the <span class="yellow">world</span>.</div>
+    <div class="rickroll">
+      <button class="rickrollbutton" href="https://www.youtube.com/watch?v=xvFZjo5PgG0" class="video-button" onclick="window.open('https://www.youtube.com/watch?v=xvFZjo5PgG0', '_blank');">
+    Get Started
+  </button>
+    </div.>
+  </div>
+  
+  <div class="section" id="what">
+    <div class="section-title">What We Do</div>
+    <div class="section-text">
+      MindSpace helps you transform your ideas into personalized <span class="yellow">digital artworks</span>. We collaborate with you to understand your <span class="yellow">vision</span> and convert your abstract concepts into meaningful visual stories.
+    </div>
+  </div>
+  <div class="section" id="process">
+    <div class="section-title">OUR PROCESS</div>
+    <div class="section-text">
+      <div class="process-step">1. Initial Consultation and Concept - Tell us your idea, and we’ll work together to shape it.</div>
+      <div class="process-step">2. Design Draft and Feedback - We’ll share a draft and revise based on your input.</div>
+      <div class="process-step">3. Final Artwork and Delivery - You receive your personalized digital art, ready to share with the world.</div>
+    </div>
+  </div>  <div class="section" id="gallery">
+    <div class="section-title">GALLERY</div>
+    <div class="gallery">
+        <img src="images/pic1.jpg" alt="Gallery Image 1">
+      <img src="images/pic2.jpg" alt="Gallery Image 2">
+    </div>
+  </div>  <div class="section" id="reviews">
+    <div class="section-title">REVIEWS</div>
+    <div class="section-text">
+      "MindSpace gave my chaos a <span class="yellow">canvas</span>.<br>
+      Chun Li
+
+    </div>
+  </div>  <div class="section" id="location">
+    <div class="section-title">LOCATION</div>
+    <div class="section-text">
+      Level 1, 12 Sample St, Sydney NSW 2000<br>
+      1800 123 4567<br>
+      email@example.com<br>
+      <a href="https://www.google.com/maps/place/Area+51,+NV,+USA/@37.2513715,-115.8040072,12z/data=!3m1!4b1!4m6!3m5!1s0x80b81baaba3e8c81:0x970427e38e6237ae!8m2!3d37.2430548!4d-115.7930198!16zL20vMHlqcQ?entry=ttu&g_ep=EgoyMDI1MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Find Us</a>
+    </div>
+  </div>
+    </div>
+  </div>  <div class="footer">
+    &copy; 2025 MindSpace. All rights reserved.
+  </div>  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('menu');
+      if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
+    }
+  </script>
+  
+</body>
+</html>
